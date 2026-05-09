@@ -11,6 +11,4 @@ def evaluate_model(x_scaled, labels):
         labels,
     )
 
-    return {
-        "silhouette_score": round(score, 3)
-    }
+    return {"silhouette_score": round(score, 3)}
